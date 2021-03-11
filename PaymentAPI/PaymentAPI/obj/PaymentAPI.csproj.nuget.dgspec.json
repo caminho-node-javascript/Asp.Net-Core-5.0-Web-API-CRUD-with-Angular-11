@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodAffection Yt\\.Net API CRUD\\project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
+    "C:\\Temp\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
   },
   "projects": {
-    "C:\\CodAffection Yt\\.Net API CRUD\\project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
+    "C:\\Temp\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodAffection Yt\\.Net API CRUD\\project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectUniqueName": "C:\\Temp\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "C:\\CodAffection Yt\\.Net API CRUD\\project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
-        "packagesPath": "C:\\Users\\Shamseer\\.nuget\\packages\\",
-        "outputPath": "C:\\CodAffection Yt\\.Net API CRUD\\project\\PaymentAPI\\PaymentAPI\\obj\\",
+        "projectPath": "C:\\Temp\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shamseer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -77,10 +77,20 @@ namespace PaymentAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<PaymentDetail>> PostPaymentDetail(PaymentDetail paymentDetail)
         {
-            _context.PaymentDetails.Add(paymentDetail);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.PaymentDetails.Add(paymentDetail);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailId }, paymentDetail);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro: {ex.Message}");
+            }
 
-            return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailId }, paymentDetail);
+
+
+
         }
 
         // DELETE: api/PaymentDetail/5
@@ -96,7 +106,7 @@ namespace PaymentAPI.Controllers
             _context.PaymentDetails.Remove(paymentDetail);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok("REGISTRO EXCLUIDO COM SUCESSO.");
         }
 
         private bool PaymentDetailExists(int id)
